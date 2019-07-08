@@ -1,0 +1,141 @@
+:root {
+  --main-color: #ffffff;
+  --primary-blue-color: #1900b9;
+  --medium-blue-color: #1b00bd;
+  --primary-black-color: #080808;
+  --second-black-color: #000000;
+  --medium-grey-color: #262626;
+  --light-grey-color: #606060;
+  --clear-grey-color: #707070;
+  --light-pink-color: #ffc9d0;
+}
+
+@font-face {
+  font-family: "OpenSans";
+  src: url("./assets/fonts/OpenSans-Regular.ttf");
+}
+
+@font-face {
+  font-family: "Quicksand";
+  src: url("./assets/fonts/Quicksand-Medium.ttf");
+}
+
+* {
+  box-sizing: border-box;
+}
+
+body {
+  margin: 0;
+  padding: 0;
+  background: var(--main-color);
+  color: var(--primary-black-color);
+  font-family: "OpenSans", sans-serif;
+  font-size: 16px;
+}
+
+.container {
+  margin: 0 auto;
+  width: 100%;
+}
+
+.block-gradient {
+  padding: 30px 0 30px 0;
+  background-image: linear-gradient(#d5d4da, #f5f5f5);
+}
+
+.form-label {
+  font-weight: bold;
+  padding: 0;
+  color: var(--medium-grey-color);
+}
+
+.form-input {
+  position: relative;
+  font-family: "Quicksand", sans-serif;
+  color: var(--light-grey-color);
+  width: 100%;
+  padding: 10px;
+  padding-left: 0px;
+  font-weight: 500;
+  border: 0;
+  border-bottom: 1px solid var(--medium-grey-color);
+  z-index: 0;
+}
+
+.form-link {
+  display: inline-block;
+  text-decoration: none;
+  font-weight: bold;
+  padding: 0;
+  color: var(--medium-grey-color);
+}
+
+.form-group {
+  position: relative;
+  margin: 0 0 20px;
+}
+
+.form-icon .form-input {
+  padding-left: 20px;
+}
+
+.icon {
+  position: absolute;
+  background-position: center center;
+  background-repeat: no-repeat;
+  z-index: 1;
+  background-size: cover;
+  bottom: 10px;
+  left: 0;
+}
+
+.icon-user {
+  width: 12px;
+  height: 16px;
+  background-image: url(./assets/images/icon-user.svg);
+}
+
+.icon-locker {
+  width: 12px;
+  height: 16px;
+  background-image: url(./assets/images/icon-locker.svg);
+}
+
+.header-wrapper,
+.footer-wrapper {
+  width: 90%;
+  margin: 0 auto;
+}
+
+.title {
+  font-size: 25px;
+  color: var(--primary-blue-color);
+}
+
+.wrapper {
+  width: 100%;
+  max-width: 420px;
+  margin: 0 auto;
+}
+
+.btn-default {
+  border: 0;
+  border-color: var(--clear-grey-color);
+  font-weight: bold;
+  width: 100%;
+  max-width: 360px;
+  padding: 10px;
+}
+
+.btn-dark {
+  background-color: var(--medium-grey-color);
+  color: var(--main-color);
+}
+
+.btn-light {
+  background-color: var(--light-pink-color);
+  color: var(--second-black-color);
+  font-weight: bold;
+  margin-top: 30px;
+  margin-bottom: 50px;
+}

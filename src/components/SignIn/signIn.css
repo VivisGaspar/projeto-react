@@ -1,0 +1,10 @@
+.btn-show-password {
+  border: 0;
+  position: absolute;
+  background-color: transparent;
+  color: var(--medium-grey-color);
+  text-decoration: underline;
+  z-index: 1;
+  bottom: 10px;
+  right: 0;
+}

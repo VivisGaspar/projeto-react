@@ -1,0 +1,11 @@
+.header {
+  width: 100%;
+  display: flex;
+  align-items: center;
+  height: 64px;
+  background-color: var(--main-color);
+}
+
+.header-logo {
+  display: block;
+}

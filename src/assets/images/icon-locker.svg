@@ -1,0 +1,10 @@
+<svg xmlns="http://www.w3.org/2000/svg" xmlns:xlink="http://www.w3.org/1999/xlink" width="14" height="16" viewBox="0 0 14 16">
+  <defs>
+    <clipPath id="clip-path">
+      <rect width="14" height="16" fill="none"/>
+    </clipPath>
+  </defs>
+  <g id="_icon_locker" data-name="👾 icon / locker" clip-path="url(#clip-path)">
+    <path id="padlock" d="M12.6,16H1.4A1.37,1.37,0,0,1,0,14.666v-8A1.369,1.369,0,0,1,1.4,5.333H2.8V4A4.108,4.108,0,0,1,7,0a4.108,4.108,0,0,1,4.2,4V5.333h1.4A1.369,1.369,0,0,1,14,6.666v8A1.37,1.37,0,0,1,12.6,16ZM7,8.667a2.054,2.054,0,0,0-2.1,2,2.054,2.054,0,0,0,2.1,2,2.054,2.054,0,0,0,2.1-2A2.054,2.054,0,0,0,7,8.667ZM7,1.333A2.739,2.739,0,0,0,4.2,4V5.333H9.8V4A2.739,2.739,0,0,0,7,1.333Z" transform="translate(0 0)" fill="#606060"/>
+  </g>
+</svg>
